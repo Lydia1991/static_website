@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A nostalgic look at childhood hobbies, music, and favorite toys.">
+  <title>My Childhood Memories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;700;800&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="corporate">
+  <a id="top"></a>
+
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Personal Story</p>
+      <h1>My Childhood Memories</h1>
+      <p class="hero__lead">
+        Small moments, favorite hobbies, and playful adventures that shaped who I am.
+      </p>
+      <nav class="hero__nav" aria-label="Page sections">
+        <a href="#hobbies">Hobbies</a>
+        <a href="#toys">Toys</a>
+      </nav>
+
+      <div class="theme-picker" role="group" aria-label="Choose visual style">
+        <p class="theme-picker__label">Theme</p>
+        <button class="theme-btn is-active" type="button" data-theme-target="corporate" aria-pressed="true">1. Corporate</button>
+        <button class="theme-btn" type="button" data-theme-target="editorial" aria-pressed="false">2. Editorial</button>
+        <button class="theme-btn" type="button" data-theme-target="creative" aria-pressed="false">3. Creative</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hobbies" class="section-block" aria-labelledby="hobbies-heading">
+      <div class="section-heading">
+        <p class="section-label">Chapter One</p>
+        <h2 id="hobbies-heading">Hobbies</h2>
+      </div>
+
+      <article class="memory-card">
+        <img src="data:image/jpeg;base64,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" alt="An open novel on a wooden table.">
+        <div>
+          <h3>Reading</h3>
+          <p>I used to spend hours in my bedroom reading fiction novels while lying on the floor.</p>
+          <p>
+            One of my favorite books was <i>Oliver Twist</i> by Charles Dickens. That story taught me gratitude and empathy.
+          </p>
+        </div>
+      </article>
+
+      <article class="memory-card">
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" alt="A microphone and headphones in a recording setup.">
+        <div>
+          <h3>Singing</h3>
+          <p>
+            I loved singing as a child and used my dad's old Nokia 3310 to record myself whenever I had a chance.
+          </p>
+          <p>
+            Even after hearing tough feedback, music stayed close to my heart and became part of my confidence journey.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="toys" class="section-block" aria-labelledby="toys-heading">
+      <div class="section-heading">
+        <p class="section-label">Chapter Two</p>
+        <h2 id="toys-heading">Favorite Toys</h2>
+      </div>
+
+      <article class="memory-card">
+        <img src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?auto=format&fit=crop&w=1000&q=80" alt="Piano keys close up.">
+        <div>
+          <h3>Playing Piano</h3>
+          <p>
+            My dad bought me a piano in grade 2, and I spent hours experimenting with sounds and simple melodies.
+          </p>
+          <p>
+            I once tried singing while playing, and even though it was difficult, it taught me patience and creativity.
+          </p>
+        </div>
+      </article>
+
+      <article class="memory-card">
+        <img src="https://m.media-amazon.com/images/I/61sZI3NnsmL._AC_SX679_.jpg" alt="Classic toy police car and accessories.">
+        <div>
+          <h3>Police Kit</h3>
+          <p>
+            My police kit was one of my favorite toys. It came with handcuffs, a baton, a radio, and a toy gun.
+          </p>
+          <p>
+            I still laugh when I remember cuffing my cousin and then panicking because I could not find the key.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with nostalgia and a smile.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+  <script>
+    (function () {
+      const root = document.body;
+      const buttons = document.querySelectorAll(".theme-btn");
+      const savedTheme = localStorage.getItem("memory-theme");
+
+      function applyTheme(themeName) {
+        root.setAttribute("data-theme", themeName);
+        buttons.forEach((button) => {
+          const isActive = button.dataset.themeTarget === themeName;
+          button.classList.toggle("is-active", isActive);
+          button.setAttribute("aria-pressed", String(isActive));
+        });
+      }
+
+      if (savedTheme) {
+        applyTheme(savedTheme);
+      } else {
+        applyTheme("corporate");
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const theme = button.dataset.themeTarget;
+          applyTheme(theme);
+          localStorage.setItem("memory-theme", theme);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
